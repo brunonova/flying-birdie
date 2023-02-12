@@ -1,0 +1,18 @@
+Game Engine:
+- https://godotengine.org/
+
+Fonts:
+- https://fonts.google.com/specimen/Ubuntu
+
+Sounds:
+- https://opengameart.org/content/punch-slap-n-kick
+- https://opengameart.org/content/crystal-cave-mysterious-ambience-seamless-loop
+- https://opengameart.org/content/large-wings-flap
+- https://opengameart.org/content/completion-sound
+
+Images:
+- https://www.kenney.nl/assets/background-elements-redux
+- https://www.kenney.nl/assets/platformer-pack-redux
+- https://www.kenney.nl/assets/game-icons
+- https://opengameart.org/content/pack-colored-birds
+- https://opengameart.org/content/flappy-bird-style-sprites

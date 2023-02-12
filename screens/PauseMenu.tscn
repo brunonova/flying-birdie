@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://themes/ui_theme.tres" type="Theme" id=1]
+[ext_resource path="res://screens/PauseMenu.gd" type="Script" id=2]
+
+[node name="PauseMenu" type="Control" groups=["pause"]]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Title" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = -230.0
+margin_bottom = -80.0
+text = "EXIT?"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="YesButton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = 100.0
+margin_right = 150.0
+margin_bottom = 143.0
+text = "YES"
+
+[node name="NoButton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = 150.0
+margin_right = 150.0
+margin_bottom = 193.0
+text = "NO"
+
+[connection signal="pressed" from="YesButton" to="." method="_on_YesButton_pressed"]
+[connection signal="pressed" from="NoButton" to="." method="_on_NoButton_pressed"]
